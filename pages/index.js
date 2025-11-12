@@ -22,10 +22,10 @@ export default function Page() {
                 <div class="schooltext">
                     <p id="hi">The School</p>
                     <p>Shree Geeta Vidyalaya (SGV) is a low income private school run by the Geeta Vikas Mandal. The school is a deeply congested two-story building with metal roofs. This is the second TFI intervention cycle at SGV.</p>
-                    <Image alt="sgv" src="/sgv.png" width={585.5} height={329.5}></Image>
                 </div>
-                <div>
-                    <Image alt="sgv" src="/school.jpg" width={360} height={480}></Image>
+                <div className="schoolphotos">
+                    <Image className="sgvimg" alt="sgv" src="/sgv.png" width={585.5} height={329.5}></Image>
+                    <Image className="rangoliimg" alt="sgv" src="/school.jpg" width={252} height={329.28}></Image>
                 </div>
             </div>
             <div class="school">

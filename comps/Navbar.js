@@ -40,7 +40,7 @@ const Navbar = () => {
             <div className="navbar">
                 <div className="left">
                     <div className="navoptions">
-                        <Link href="" className="tfilogo"><Image alt="TFI" src="/tfilogo.png" width={84.32} height={25.4}></Image></Link>
+                        <Link href="https://www.teachforindia.org/" target="#" className="tfilogo"><Image alt="TFI" src="/tfilogo.png" width={84.32} height={25.4}></Image></Link>
                     </div>
                     <div className="navoptions">
                         <Link href="/">Home</Link>

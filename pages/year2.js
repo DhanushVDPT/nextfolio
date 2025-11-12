@@ -8,7 +8,7 @@ export default function Page() {
             <Head>
                 <title>Dhanush | Year 2</title>
             </Head>
-            Year 2
+            COMING SOON
         </>
     )
 }

@@ -67,6 +67,7 @@ h2{
 body{
     background-color: #F2E5D7;
     color: #000000;
+    padding-top: 4em;
 }
 
 .aboutme{
@@ -76,6 +77,7 @@ body{
     align-content: flex-start;
     justify-content: space-evenly;
     align-items: center;
+    height: 100vh;
 }
 
 .aboutmetext{
@@ -88,6 +90,13 @@ body{
     font-size: 2em;
     margin-top: 1em;
     margin-bottom: 0.5em;
+}
+
+.here{
+    color: rgb(0, 89, 255);
+}
+.here:visited{
+    color: rgb(0, 89, 255);
 }
 
 #hi,#contact{
@@ -106,6 +115,7 @@ body{
 
 .school{
     margin-top: 1em;
+    margin-bottom: 2em;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -116,10 +126,19 @@ body{
 
 .schooltext {
     margin-top: 1em;
-    width: 40vw;
+    width: 80vw;
+}
+
+.schoolphotos{
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
 }
 
 .navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
     margin: 0 auto 0;
     display: flex;
     flex-wrap: nowrap;
@@ -127,11 +146,17 @@ body{
     background-color: #000000;
     padding-top: 0.7em;
     padding-bottom: 0.7em;
+    top: 0;
 }
 
 .dpimg{
     margin-top: 1em;
     align-content: center;
+}
+
+.aboutmeimg{
+    width: auto;
+    height: 70vh;
 }
 
 .schooltext p{
@@ -158,10 +183,10 @@ body{
     align-items: flex-start;
 }
 
-.class2, .ahead {
+.class2 {
     width: 90vw;
     margin-top: 1em;
-    margin-left: 2.2em;
+    margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: row;
@@ -170,6 +195,7 @@ body{
     justify-content: space-evenly;
     align-items: flex-start;
     text-align: justify;
+    margin-bottom: 2em;
 }
 
 .classtext{
@@ -178,11 +204,16 @@ body{
 }
 
 .classtext2 {
-    width: 40vw;
+    width: 52vw;
     text-align: justify;
+    margin-right: 0.8em;
 }
 
-#instiindia, #instiself, #instiothers, #collab, #quest, .aheadheading{
+.classtext3{
+    width: 90vw;
+}
+
+#instiindia, #instiself, #instiothers, #collab, #quest{
     font-family: 'FuturaBold';
     font-size: 1.7em;
 }
@@ -235,17 +266,30 @@ body{
     justify-content: space-around;
 }
 
+.lotherscontent p, .lindiacontent p{
+    margin-top: 0.5em;
+    padding-left: 0.95em;
+    padding-right: 0.95em;
+}
+
 .lself, .lindia{
     width: 90vw;
     text-align: justify;
 }
 
+.lothersimg, .lindiaimg{
+    height: 40vh;
+    width: auto;
+}
+
 .instidiscussions, .instiholistic, .insticommunity{
     width: 30vw;
+    height: 60vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: justify;
+    align-content: flex-start;
 }
 
 .lselfcontent{
@@ -285,8 +329,13 @@ body{
 }
 
 .abouttext {
-    width: 70vw;
+    width: 55vw;
     text-align: justify;
+}
+
+.classimg{
+    height: 25vw;
+    width: auto;
 }
 
 li{
@@ -310,13 +359,47 @@ input[type="radio"]{
     display: none;
 }
 
-@media screen and (max-width:1155px){
-    .mobiletitle{
-        margin-top: 1em;
+@media screen and (max-width:945px){
+    .hamburger{
+        margin-top: 0.4em;
     }
     body{
-        font-size: 0.9em;
+        font-size: 1.5em;
     }
+    h2{
+        margin-top: 0;
+    }
+    .aboutme{
+        height: 60vh;
+    }
+    .school{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    .schooltext{
+        width: 80vw;
+        text-align: justify;
+    }
+    .sgvimg{
+        width: 45vw;
+        height: auto;
+    }
+    .rangoliimg{
+        display: inline;
+        width: 25vw;
+        height: auto;
+    }
+    .mobiletitle{
+        margin-bottom: 0.2em;
+        margin-top: 0.2em;
+    }
+
+    #hi{
+        text-align: center;
+    }
+
     #sidebar-active{
         display: none;
     }
@@ -393,6 +476,12 @@ input[type="radio"]{
 }
 
 @media screen and (max-width:534px){
+    h1{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width:371px){
     h1{
         font-size: 1.5em;
     }
