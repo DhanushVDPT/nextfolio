@@ -13,14 +13,14 @@ export default function Page() {
                     <p id="quest">Questseekers</p>
                     <p>I taught in the 7A class of Shatabai Ladkat High School, Pune for three weeks. I started with maths on my first week, followed by Reading Comprehension, and English Writing.</p>
                 </div>
-                <Image alt="sgv" src="/questseekers.png" width={322} height={241.5}></Image>
+                <Image alt="questseekers" className="questimg" src="/questseekers.png" width={322} height={241.5}></Image>
             </div>
             <div class="collab">
                 <div class="collabtext">
                     <p id="collab">My Collab</p>
                     I had an amazing collab - Satyajeet, Shibanie and Sini to help me in teaching this class.
                 </div>
-                <Image alt="sgv" src="/collab.png" width={320} height={320}></Image>
+                <Image alt="collab" className="collabimg" src="/collab.png" width={320} height={320}></Image>
             </div>
             <div class="lothers">
                 <div class="lothersheading">
@@ -64,7 +64,7 @@ export default function Page() {
                         <p>Students proposing new laws to improve gender equality in the country</p>
                     </div>
                     <div class="insticommunity">
-                        <Image className="lindiaimg" alt="lindia3" src="/leadingindia3.png" width={399.75} height={224.75}></Image>
+                        <Image id="bigindia" className="lindiaimg" alt="lindia3" src="/leadingindia3.png" width={399.75} height={224.75}></Image>
                         <p>Improved collaboration between boys and girls.</p>
                     </div>
                 </div>

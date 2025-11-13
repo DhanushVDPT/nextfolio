@@ -34,7 +34,7 @@ export default function Page() {
                     <p>Govandi is a community of hardworking people, many of whom are migrants who moved here in search of jobs and a better quality of life. Most of my students live within the community, just a short walking distance from the school. A significant portion of the population resides in slum areas, facing numerous challenges in their daily lives. Despite these hardships, the community remains resilient, with families striving to create better opportunities for their children through education. The community houses one of the largest dumping grounds, leading to severe environmental and health issues. Many children suffer from illnesses caused by unclean air, water, and food, resulting in frequent absences from school. Open sewage worsens the living conditions, creating an unhealthy environment for families. Additionally, issues like substance abuse, violence, and occasional murders make the area unsafe, especially for children.</p>
                 </div>
                 <div>
-                    <Image alt="sgv" src="/community.jpg" width={480} height={640}></Image>
+                    <Image className="govimg" alt="sgv" src="/community.jpg" width={480} height={640}></Image>
                 </div>
             </div>
         </>

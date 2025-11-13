@@ -90,6 +90,7 @@ body{
     font-size: 2em;
     margin-top: 1em;
     margin-bottom: 0.5em;
+    text-align: left;
 }
 
 .here{
@@ -270,6 +271,7 @@ body{
     margin-top: 0.5em;
     padding-left: 0.95em;
     padding-right: 0.95em;
+    font-size: 1em;
 }
 
 .lself, .lindia{
@@ -310,6 +312,7 @@ body{
     flex-direction: column;
     align-items: center;
     background-color: #FABB15;
+    margin-top: auto;
 }
 
 .aboutme2{
@@ -359,18 +362,45 @@ input[type="radio"]{
     display: none;
 }
 
-@media screen and (max-width:945px){
+.hideclassimg{
+    display: none;
+}
+
+@media screen and (max-width:959px){
+    html{
+        height: 100%;
+    }
     .hamburger{
         margin-top: 0.4em;
     }
     body{
-        font-size: 1.5em;
+        font-size: 0.7em;
+        padding-top: 0;
+        min-height: 100%;
+        display: flex;
+        flex-direction: column;
     }
     h2{
         margin-top: 0;
     }
     .aboutme{
+        height: auto;
+    }
+    .aboutmeimage{
+        width: 25vw;
+        height: auto;
+    }
+    .abouttext{
+        width: 100%;
+    }
+    .govimg{
         height: 60vh;
+        width: auto;
+    }
+
+    .xiaimg{
+        width: 35vw;
+        height: auto;
     }
     .school{
         display: flex;
@@ -383,7 +413,11 @@ input[type="radio"]{
         text-align: justify;
     }
     .sgvimg{
-        width: 45vw;
+        width: 50vw;
+        height: auto !important;
+    }
+    .scrolldown{
+        width: 15vw;
         height: auto;
     }
     .rangoliimg{
@@ -394,6 +428,27 @@ input[type="radio"]{
     .mobiletitle{
         margin-bottom: 0.2em;
         margin-top: 0.2em;
+    }
+    .class{
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .classtext, .classtext2{
+        width: 100%;
+    }
+    .lothersimg{
+    height: auto;
+    width: 28vw;
+    }
+
+    .lindiaimg{
+    height: 18vw;
+    width: auto;
+    }
+
+    .instidiscussions, .instiholistic, .insticommunity{
+        height: auto;
     }
 
     #hi{
@@ -459,19 +514,67 @@ input[type="radio"]{
         left: 0;
         z-index: 9;
     }
+    .content{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    #__next{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .foot{
+        width: 100vw;
+        margin-top: auto;
+    }
+    .aboutmeimg{
+        height: 35vh;
+        width: auto;
+    }
+    .aboutme2{
+        flex-direction: column-reverse;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        align-content: center;
+    }
+    .hideclassimg{
+        display: flex;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+    .xiaimg, .classimg{
+        display: none;
+    }
+    .xiaimg1, .classimg1{
+        width: 25vw;
+        height: auto;
+        padding: 0.5em;
+    }
+    .collabimg, .questimg{
+        width: 30vw;
+        height: auto;
+    }
 }
 
-@media screen and (max-width:755px){
+
+
+@media screen and (max-width:636px){
     body{
-        font-size: 0.7em;
-    }
-    h1{
-        font-size: 1.6em;
+        font-size: 0.63em;
     }
     .nav-bar{
         font-size: 1.5em;
         width: 45vw;
         height: 105vh;
+    }
+    .aboutmeimage{
+        height: 25vh;
+        width: auto;
     }
 }
 

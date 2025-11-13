@@ -9,6 +9,11 @@ export default function Page() {
                 <title>Dhanush | Year 1</title>
             </Head>
             <br></br>
+            <div className="hideclassimg">
+                <Image className="xiaimg1" alt="class" src="/classroom.png" width={285.75} height={385.8}></Image>
+                <Image className="classimg1" alt="maths" src="/maths.png" width={263} height={388}></Image>
+                <Image className="classimg1" alt="rishika" src="/rishika.jpg" width={1200} height={1600}></Image>
+            </div>
             <div class="class">
                 <Image className="xiaimg" alt="class" src="/classroom.png" width={285.75} height={385.8}></Image>
                 <div class="classtext">
@@ -24,11 +29,9 @@ export default function Page() {
                     <br></br><br></br>I was very fortunate to have a wonderful team of math-science fellows - Santosh, Misari, and Srishti, to help me every day.
                 </div>
                 <div>
-                    {/* <Image className="classimg" alt="maths" src="/maths.png" width={252.48} height={372.48}></Image> */}
                     <Image className="classimg" alt="maths" src="/maths.png" width={263} height={388}></Image>
                 </div>
                 <div>
-                    {/* <Image className="classimg" alt="rishika" src="/rishika.jpg" width={235.224} height={313.632}></Image> */}
                     <Image className="classimg" alt="rishika" src="/rishika.jpg" width={1200} height={1600}></Image>
                 </div>
                 <div className="classtext3">
