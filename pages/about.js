@@ -18,7 +18,7 @@ export default function Page() {
                     </p>
                 </div>
                 <div class="dpimg">
-                    <Image className="aboutmeimg" alt="dhanush" src="/dpimg.jpg" width={280} height={280}></Image>
+                    <Image id="aboutimg" className="aboutmeimg" alt="dhanush" src="/dpimg.jpg" width={280} height={280}></Image>
                 </div>
             </div>
             <br></br><br></br>
