@@ -271,7 +271,8 @@ body{
     margin-top: 0.5em;
     padding-left: 0.95em;
     padding-right: 0.95em;
-    font-size: 1em;
+    font-size: 0.8em;
+    text-align: left;
 }
 
 .lself, .lindia{
@@ -573,14 +574,21 @@ input[type="radio"]{
         height: 105vh;
     }
     .aboutmeimage{
-        height: 25vh;
+        height: 30vw;
         width: auto;
+    }
+    .govimg{
+        width: 70vw;
+        height: auto;
     }
 }
 
 @media screen and (max-width:534px){
     h1{
         font-size: 1.5em;
+    }
+    body{
+        font-size: 0.5em;
     }
 }
 
