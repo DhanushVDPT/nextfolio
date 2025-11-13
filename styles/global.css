@@ -388,7 +388,7 @@ input[type="radio"]{
         height: auto;
     }
     .aboutmeimage{
-        width: 25vw;
+        width: 30vw;
         height: auto;
     }
     .abouttext{
@@ -574,7 +574,7 @@ input[type="radio"]{
         height: 105vh;
     }
     .aboutmeimage{
-        height: 30vw;
+        height: 50vw;
         width: auto;
     }
     .govimg{
@@ -589,6 +589,10 @@ input[type="radio"]{
     }
     body{
         font-size: 0.5em;
+    }
+    .aboutmeimage{
+        height: 50vw;
+        width: auto;
     }
 }
 
