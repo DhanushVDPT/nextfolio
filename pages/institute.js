@@ -69,9 +69,8 @@ export default function Page() {
                     </div>
                 </div>
                 <br></br>
-                <p>I have observed how not being able to access English education in the early years hinders progress in all other subjects, affecting their confidence and motivation.</p>
+                <p>I have observed how not being able to access English education in the early years hinders progress in all other subjects, affecting their confidence and motivation.<br></br><br></br></p>
             </div>
-            <br></br><br></br>
         </>
     )
 }
