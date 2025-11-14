@@ -384,7 +384,7 @@ input[type="radio"]{
         margin-top: 0.4em;
     }
     body{
-        font-size: 0.7em;
+        font-size: 1em;
         padding-top: 0;
         min-height: 100%;
         display: flex;
@@ -437,7 +437,7 @@ input[type="radio"]{
     }
     .mobiletitle{
         margin-bottom: 0.2em;
-        margin-top: 1em;
+        margin-top: 0.5em;
         font-size: 1.8em;
     }
     .class{
@@ -548,7 +548,7 @@ input[type="radio"]{
         width: 90vw;
         margin-left: auto;
         margin-right: auto;
-        align-content: center;
+        justify-content: center;
     }
     .hideclassimg{
         display: flex;
@@ -570,10 +570,14 @@ input[type="radio"]{
         width: 30vw;
         height: auto;
     }
+    #aboutimg{
+        width: 100%;
+        height: auto;
+    }
 }
 
 
-
+/* 
 @media screen and (max-width:636px){
     body{
         font-size: 0.63em;
@@ -599,18 +603,96 @@ input[type="radio"]{
         font-size: 1.4em;
         padding-left: 0;
     }
-}
+} */
 
-@media screen and (max-width:534px){
-    h1{
-        font-size: 1.5em;
-    }
+@media screen and (max-width:636px){
     body{
-        font-size: 0.5em;
+        font-size: 0.8em;
+    }
+    .mobiletitle{
+        margin-top: 0.5em;
     }
     .aboutmeimage{
         height: 50vw;
         width: auto;
+    }
+    #aboutimg{
+        width: 100%;
+        height: auto;
+    }
+    .aboutme2{
+        display: block;
+        height: 100%;
+        margin-top: 0;
+    }
+    .nav-bar li a{
+        font-size: 1.2em;
+    }
+    #hi{
+        margin-bottom: 0;
+    }
+    #quest, #collab, .aboutmetext, #hithere, #hi{
+        text-align: center;
+        margin-bottom: 0;
+    }
+    #hithere{
+        margin-top: 0;
+    }
+    .questseekers, .collab{
+        font-size: 1.4em;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .questimg, .collabimg, .lothersimg, .selfvideo, .lindiaimg{
+        width: 48vw;
+        height: auto;
+    }
+    #instiothers, #instiself, #instiindia{
+        font-size: 2.8em;
+        margin-bottom: 0.5em;
+    }
+    .lothers, .lotherscontent, .lself, .lindia, .lindiacontent{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+    .lotherscontent, .instidiscussions, .insticommunity, .instiholistic, .lselfcontent, .lindiacontent{
+        font-size: 1.4em;
+        width: 100%;
+        margin-bottom: 0.8em;
+    }
+    #instip, .class, .class2{
+        font-size: 1.4em;
+    }
+    .aboutmetext, .questtext, .collabtext{
+        width: 100%;
+    }
+    .aboutme, .school{
+        display: flex;
+        flex-direction: column-reverse;
+        align-content: center;
+        width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.4em;
+    }
+    .aboutmeimage{
+        width: 60vw;
+        height: auto;
+        margin-bottom: 0;
+    }
+    .school{
+        margin-bottom: 0;
+    }
+    .abouttext{
+        padding-left: 0;
     }
 }
 
