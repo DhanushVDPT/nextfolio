@@ -343,7 +343,7 @@ body{
 .abouttext {
     width: 60vw;
     text-align: justify;
-    padding-right: 0.8em;
+    padding-left: 0.8em;
 }
 
 .classimg{
@@ -378,7 +378,7 @@ input[type="radio"]{
 
 @media screen and (max-width:959px){
     html{
-        height: 100%;
+        min-height: 100%;
     }
     .hamburger{
         margin-top: 0.4em;
@@ -526,14 +526,14 @@ input[type="radio"]{
         z-index: 9;
     }
     .content{
-        height: 100vh;
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
     }
     #__next{
         display: flex;
         flex-direction: column;
-        height: 100vh;
+        min-height: 100vh;
     }
     .foot{
         width: 100vw;
@@ -544,7 +544,6 @@ input[type="radio"]{
         width: auto;
     }
     .aboutme2{
-        
         width: 90vw;
         margin-left: auto;
         margin-right: auto;
@@ -597,7 +596,7 @@ input[type="radio"]{
     }
     .abouttext{
         font-size: 1.4em;
-        padding-right: 0;
+        padding-left: 0;
     }
 }
 
@@ -674,10 +673,15 @@ input[type="radio"]{
     }
     .abouttext{
         font-size: 2em;
-        padding-right: 0;
+        padding-left: 0;
+        width: 100%;
     }
     #aboutimg{
-        width: 60vw;
+        width: 100%;
         height: auto;
+    }
+    .aboutme2{
+        display: block;
+        height: 100%;
     }
 }
