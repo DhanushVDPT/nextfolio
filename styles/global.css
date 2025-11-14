@@ -437,7 +437,8 @@ input[type="radio"]{
     }
     .mobiletitle{
         margin-bottom: 0.2em;
-        margin-top: 0.2em;
+        margin-top: 1em;
+        font-size: 1.8em;
     }
     .class{
         width: 90vw;
