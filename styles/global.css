@@ -496,7 +496,7 @@ input[type="radio"]{
         position: fixed;
         top:0;
         right: -100%;
-        width: 28vw;
+        width: 35vw;
         background: #FABB15;
         transition: 0.4s ease-out;
         z-index: 10;
