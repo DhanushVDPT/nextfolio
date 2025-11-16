@@ -619,35 +619,6 @@ input[type="radio"]{
     }
 }
 
-
-/* 
-@media screen and (max-width:636px){
-    body{
-        font-size: 0.63em;
-    }
-    .nav-bar{
-        font-size: 1.5em;
-        width: 45vw;
-        height: 105vh;
-    }
-    .aboutmeimage{
-        height: 50vw;
-        width: auto;
-    }
-    .govimg{
-        width: 70vw;
-        height: auto;
-    }
-    .aboutme2{
-        flex-wrap: wrap;
-        flex-direction: column-reverse;
-    }
-    .abouttext{
-        font-size: 1.4em;
-        padding-left: 0;
-    }
-} */
-
 @media screen and (max-width:636px){
     body{
         font-size: 0.8em;
@@ -737,6 +708,10 @@ input[type="radio"]{
     .abouttext{
         padding-left: 0;
     }
+    .govimg{
+        width: 50vw;
+        height: auto;
+    }
 }
 
 @media screen and (max-width:371px){
@@ -747,7 +722,7 @@ input[type="radio"]{
         width: 90vw;
         margin-left: auto;
         margin-right: auto;
-        font-size: 1.8em;
+        font-size: 1.2em;
     }
     .aboutmeimage{
         width: 60vw;
@@ -755,7 +730,7 @@ input[type="radio"]{
         margin-bottom: 0;
     }
     .questseekers, .collab{
-        font-size: 1.8em;
+        font-size: 1.2em;
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
@@ -778,7 +753,7 @@ input[type="radio"]{
         height: auto;
     }
     #instiothers, #instiself, #instiindia{
-        font-size: 2.8em;
+        font-size: 1.5em;
         margin-bottom: 0.5em;
     }
     .lothers, .lotherscontent, .lself, .lindia, .lindiacontent{
@@ -790,15 +765,15 @@ input[type="radio"]{
         align-items: center;
     }
     .lotherscontent, .instidiscussions, .insticommunity, .instiholistic, .lselfcontent, .lindiacontent{
-        font-size: 1.5em;
+        font-size: 1.1em;
         width: 100%;
         margin-bottom: 0.8em;
     }
     #instip, .class, .class2{
-        font-size: 1.8em;
+        font-size: 1.2em;
     }
     .abouttext{
-        font-size: 2em;
+        font-size: 1.2em;
         padding-left: 0;
         width: 100%;
     }
