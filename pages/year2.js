@@ -58,7 +58,7 @@ export default function Page() {
                     <p className="g10text">
                         Even with the noticeable improvement, our daily sessions often reveal new learning gaps rooted in primary-grade concepts. The journey toward the final exam is filled with ups and downs, and these gaps can feel like unexpected obstacles along the way. Nevertheless, each challenge helps me better understand what the students need and how I can support them more effectively.
                     </p>
-                    <Image className="ethan" alt="MI" src="/one-battle-after-another-movie-title.gif" width={360} height={360}></Image>
+                    <Image className="ethan" alt="MI" src="/obaa.gif" width={1920} height={1080}></Image>
                 </div>
             </div>
             
@@ -68,7 +68,7 @@ export default function Page() {
                     <p className="g10text">
                         After my first year, when I felt overwhelmed and uncertain about my work, my new Program Manager, Musharrat, provided invaluable support and helped me regain clarity and confidence. Her leadership and the way she addressed our school team in her very first meeting were incredibly uplifting. She reinforced my belief in the value of my work and reminded me that my efforts truly matter.
                     </p>
-                    <Image className="musharrat" alt="MI" src="/musharratcrop.jpg" width={650} height={969}></Image>
+                    <Image className="ethan" alt="MI" src="/musharratdandalayya.gif" width={1920} height={1080}></Image>
                     <p className="g10text">
                         I first met her at the institute, where she was the first person to encourage me in this fellowship. She recognized my effort and presented me with the “Best Lesson Plan” award for reading comprehension, a gesture that greatly motivated me. I also witnessed her generosity early on when she shared all of her beautifully crafted classroom charts with the rest of us. <br></br>
                         Her ability to understand my thoughts even before I fully express them often feels intuitive, almost as if she can anticipate what I am trying to say. In addition to her interpersonal strengths, she possesses deep subject-matter expertise across all SSC disciplines. She has a clear grasp of what is essential for success in SSC and provides guidance that is both strategic and practical. I genuinely cannot imagine navigating this school year without her guidance and encouragement.
