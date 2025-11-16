@@ -661,6 +661,10 @@ input[type="radio"]{
         margin-left: auto;
         margin-right: auto;
     }
+    .ethan{
+        width: 85vw;
+        height: auto;
+    }
     .questimg, .collabimg, .lothersimg, .selfvideo, .lindiaimg{
         width: 48vw;
         height: auto;
