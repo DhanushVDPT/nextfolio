@@ -11,10 +11,10 @@ export default function Page() {
             <div className="g10">
                 <p className="gx">GRADE X</p>
                 <div className="g10content">
+                    <Image className="ethan" alt="MI" src="/xd.jpeg" width={1156} height={868}></Image>
                     <p className="g10text">
                         My Grade 10 classroom — a space filled with curiosity, collaboration, and the determination to grow a little more every day. Here, students are encouraged to think boldly, ask questions freely, and support one another as they navigate one of the most important years of their school journey. This classroom is built on respect, kindness, and the belief that every student has something unique to offer. Whether we are tackling challenging concepts, celebrating small victories, or learning through lively discussions, the goal remains the same: to help each learner discover confidence in their abilities.
                     </p>
-                    <Image className="ethan" alt="MI" src="/mission.gif" width={400} height={168}></Image>
                 </div>
                 <div className="g10content">
                     <p className="g10text">
@@ -28,7 +28,7 @@ export default function Page() {
             </div>
 
             <div className="g10">
-                <p className="gx">GRIND</p>
+                <p className="gx">THE GRIND</p>
                 <div className="g10content">
                     <p className="g10text">
                         I follow a highly rigorous schedule to ensure consistent support for my students. My day begins at 4:30 a.m., and I arrive at school by 6:30 a.m. I teach through 12:15 p.m., followed by an additional LoR support session until 2:00 p.m., and a HoR session until 4:00 p.m. To further enhance learning, I developed a comprehensive <a class="here" target="#" href="https://sgv9.vercel.app/">class website</a> that provides students with centralized access to all instructional materials, including lesson plans, class notes, homework, textbooks, digests, 21 sets, previous years' papers, and other essential resources.
@@ -38,6 +38,13 @@ export default function Page() {
                         I have adopted a new approach to designing each lesson plan by first compiling all previous years' questions related to that chapter. Using this, I analyze and determine the weightage of each topic, which helps me eliminate non-essential content and structure the chapter more effectively. I then categorize all available questions from the chapter into LoR, MoR, and HoR levels to support targeted practice sessions. An example of this process, applied to the Linear Equations chapter, is provided <a class="here" target="#" href="https://docs.google.com/document/d/13kaE6fCfqX822gPxqzgHYWA7cn-Ddc7cZI_Ho1NU4Ck/edit?tab=t.0">here</a>.
                     </p>
                     <Image className="ethan" alt="MI" src="/captainamerica.gif" width={498} height={208}></Image>
+                    <p className="g10text">
+                        I've picked up one amazing practice from my last year's co-fellow, Misari: using Canva to create colorful and engaging presentations for science chapters. This simple shift has made my lessons far more visually appealing and easier for students to understand. The templates, graphics, and intuitive design tools help me break down complex concepts in a fun and accessible way. Adopting this practice has not only improved my teaching materials but also boosted student interest and participation in class. Some of my presentations are attached here - <a class="here" target="#" href="https://www.canva.com/design/DAGkGcJQQ1M/wVQRfS-dDo_ycGvMe6tFow/edit?utm_content=DAGkGcJQQ1M&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Gravitation</a>, <a class="here" target="#" href="https://www.canva.com/design/DAG2y2McRXU/2UO2ZLv4KkgZ5bNuka57Gw/edit?utm_content=DAG2y2McRXU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Reproduction</a>,  <a class="here" target="#" href="https://www.canva.com/design/DAG2xeRT_HA/qg2WRh8gjRyKJCvXqVm1Ng/edit?utm_content=DAG2xeRT_HA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">Human reproduction</a><br></br>
+                    </p>
+                    <Image className="ethan" alt="MI" src="/misari.gif" width={1920} height={561}></Image>
+                    <p className="g10text">
+                        For the chapter of Gravitation, I made a few <a class="here" target="#" href="https://youtube.com/playlist?list=PLyVe-P0i-PKEGjvJFik3_1xWeMxitxBSh&si=P3bqkdUuQq3Vsudg">videos</a> as well for students to revisit the class content after going home.
+                    </p>
                 </div>
             </div>
             
@@ -46,7 +53,7 @@ export default function Page() {
                 <div className="g10content">
                     <Image className="ethan" alt="MI" src="/data.png" width={821} height={489}></Image>
                     <p className="g10text">
-                        Compared to last year, the students have shown significant academic improvement. Their understanding of core concepts has deepened, their problem-solving skills have become more accurate and efficient, and their engagement during lessons has increased noticeably. Many students who previously struggled with certain topics are now showing consistent progress and stronger performance. This collective improvement reflects their hard work and growing confidence in their academic abilities.
+                        Compared to last year, the students have shown significant academic improvement. Their understanding of core concepts has deepened, their problem-solving skills have become more accurate and efficient, and their engagement during lessons has increased noticeably. Many students who previously struggled with certain topics are now showing consistent progress and stronger performance. This collective improvement reflects their hard work and growing confidence in their academic abilities. The complete analysis is provided <a class="here" target="#" href="https://docs.google.com/spreadsheets/d/1k04s5kj04NBshNRsocjWXlrkTAhk2yJfIh1qfncB6_8/edit?usp=sharing">here</a>.
                     </p>
                     <Image className="ethan" alt="MI" src="/haikyuu-dance-niku-niku.gif" width={498} height={281}></Image>
                 </div>
@@ -75,11 +82,13 @@ export default function Page() {
                     </p>
                 </div>
                 <div className="g10content">
-                    <Image className="ethan" alt="MI" src="/captainamerica.gif" width={498} height={208}></Image>
+                    <p className="gx">Practice, Practice and More Practice</p>
+                    <Image className="ethan" alt="MI" src="/harsh.png" width={1421} height={1080}></Image>
                     <p className="g10text">
                         A student's family generously offered me the use of a room in their home for daily after-school sessions, including weekends. This dedicated space has enabled me to provide more individualized support and to address each student's specific learning needs with greater focus. I am sincerely grateful to Harsh and his family for their hospitality and consistent support.
                         These after-school sessions have become something students look forward to—not only because of the increased personal attention they receive, but also because they can unwind together with a short game of cards or Jenga once the academic work is complete.
                     </p>
+                    <Image className="ethan" alt="MI" src="/games.png" width={1421} height={1080}></Image>
                 </div>
             </div>
         </>
