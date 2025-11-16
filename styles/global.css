@@ -104,7 +104,7 @@ body{
     color: rgb(0, 89, 255);
 }
 
-#hi,#contact{
+.gx, #hi, #contact{
     font-family: 'FuturaBold';
     font-size: 1.8em;
 }
@@ -349,6 +349,47 @@ body{
 .classimg{
     height: 25vw;
     width: auto;
+}
+
+.g10{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.g10content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: justify;
+    align-items: center;
+}
+
+#ssc{
+    font-family: 'FuturaBold';
+    text-align: center;
+}
+
+#musharratcontent{
+    justify-content: flex-end;
+}
+
+.g10text{
+    width: 100%;
+}
+
+.ethan {
+    width: 60%;
+    height: auto;
+}
+
+.musharrat{
+    width: 20vw;
+    height: auto;
 }
 
 li{
