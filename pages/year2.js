@@ -11,9 +11,9 @@ export default function Page() {
             <div className="g10">
                 <p className="gx">GRADE X</p>
                 <div className="g10content">
-                    <Image className="ethan" alt="MI" src="/xd.jpeg" width={1156} height={868}></Image>
+                    <Image className="ethan" alt="MI" src="/xdmedhareddy.png" width={1208} height={618}></Image>
                     <p className="g10text">
-                        My Grade 10 classroom — a space filled with curiosity, collaboration, and the determination to grow a little more every day. Here, students are encouraged to think boldly, ask questions freely, and support one another as they navigate one of the most important years of their school journey. This classroom is built on respect, kindness, and the belief that every student has something unique to offer. Whether we are tackling challenging concepts, celebrating small victories, or learning through lively discussions, the goal remains the same: to help each learner discover confidence in their abilities.
+                        My Grade 10 classroom, a space filled with curiosity, collaboration, and the determination to grow a little more every day. Here, students are encouraged to think boldly, ask questions freely, and support one another as they navigate one of the most important years of their school journey. This classroom is built on respect, kindness, and the belief that every student has something unique to offer. Whether we are tackling challenging concepts, celebrating small victories, or learning through lively discussions, the goal remains the same: to help each learner discover confidence in their abilities.
                     </p>
                 </div>
                 <div className="g10content">
@@ -86,7 +86,7 @@ export default function Page() {
                     <Image className="ethan" alt="MI" src="/harsh.png" width={1421} height={1080}></Image>
                     <p className="g10text">
                         A student's family generously offered me the use of a room in their home for daily after-school sessions, including weekends. This dedicated space has enabled me to provide more individualized support and to address each student's specific learning needs with greater focus. I am sincerely grateful to Harsh and his family for their hospitality and consistent support.
-                        These after-school sessions have become something students look forward to—not only because of the increased personal attention they receive, but also because they can unwind together with a short game of cards or Jenga once the academic work is complete.
+                        These after-school sessions have become something students look forward to, not only because of the increased personal attention they receive, but also because they can unwind together with a short game of cards or Jenga once the academic work is complete.
                     </p>
                     <Image className="ethan" alt="MI" src="/games.png" width={1421} height={1080}></Image>
                 </div>
